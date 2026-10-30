@@ -4,7 +4,6 @@ import tailwindcss from "@tailwindcss/vite"
 import { defineConfig } from "vite"
 
 export default defineConfig({
-    base: '/job-portal/',
     plugins: [react(), tailwindcss()],
     resolve: {
         alias: {
