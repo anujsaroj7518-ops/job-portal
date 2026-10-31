@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-    origin: "https://job-portal-alpha-lime.vercel.app"
+    origin: "https://job-portal-alpha-lime.vercel.app",
     credentials: true,
 };
 app.use(cors(corsOptions));
